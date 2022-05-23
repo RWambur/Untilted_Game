@@ -10,24 +10,39 @@ namespace Untilted_Game
             Inventory inventory = new Inventory();
             Items items = new Items();
 
-            switch (comAns)
+            if (comAns == "HELP")
             {
-                case "HELP":
-                    Console.WriteLine("??");
-                    Com();
-                    break;
-                case "OPEN":
-                    Inventory.Inv();
-                    break;
-                case "USE":
+                Console.WriteLine("??");
+                Com();
+
+            } else if (comAns == "OPEN")
+            {
+                Inventory.Inv();
+                
+            } else if (comAns == "USE CORNY MÜSLIRIEGEL")
+            {
+                if (Inventory.content02 == "LEER" )
+                {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("Du besitzt keinen " + Items.corny + " mehr.");
+                Console.ForegroundColor = ConsoleColor.White;
+                Com();
+                } else 
+                {
+                    Inventory.content02 = Items.leer;
                     
-                    break;
-                default:
-                    Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine("ERROR\n");
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Com();
-                    break;
+                }
+
+            } else if (comAns == "USE" + Inventory.content02)
+            {
+                Console.WriteLine(Inventory.content02);
+
+            } else
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("ERROR\n");
+                Console.ForegroundColor = ConsoleColor.White;
+                Com();
             }
             
             

@@ -5,16 +5,16 @@ namespace Untilted_Game
     public class Inventory
     {
 
-        public static string content01 = "--LEER--";
-        public static string content02 = "--LEER--";
-        public static string content03 = "--LEER--";
-        public static string content04 = "--LEER--";
-        public static string content05 = "--LEER--";
-        public static string content06 = "--LEER--";
-        public static string content07 = "--LEER--";
-        public static string content08 = "--LEER--";
-        public static string content09 = "--LEER--";
-        public static string content10 = "--LEER--";
+        public static string content01 = "LEER";
+        public static string content02 = "LEER";
+        public static string content03 = "LEER";
+        public static string content04 = "LEER";
+        public static string content05 = "LEER";
+        public static string content06 = "LEER";
+        public static string content07 = "LEER";
+        public static string content08 = "LEER";
+        public static string content09 = "LEER";
+        public static string content10 = "LEER";
 
         
 
