@@ -9,6 +9,11 @@ namespace Untilted_Game
             Console.Title = "Untiteld Game";
             Console.ForegroundColor = ConsoleColor.White;
             Shortcuts shortcuts = new Shortcuts();
+            Inventory inventory = new Inventory();
+            Items items = new Items();
+            Commands commands = new Commands();
+
+            Shortcuts.Name();
 
             Console.WriteLine("Durch skurrilen Websites im Internet erfuhrst du von einem verlassenen Ort,\nviele Menschen sollen dort ihr ableben gefunden haben.");
             Shortcuts.Tutorial.EnterTut();
@@ -51,13 +56,9 @@ namespace Untilted_Game
             Shortcuts.Enter();
 
             Shortcuts.Tutorial.OpenTut();
-
-            Inventory inventory = new Inventory();
-            Items items = new Items();
-
+            
             Inventory.content02 = Items.corny;
 
-            Commands commands = new Commands();
             Commands.Com();
 
             Shortcuts.Tutorial.UseItemTut();

@@ -8,6 +8,21 @@ namespace Untilted_Game
         {
             while (Console.ReadKey(true).Key != ConsoleKey.Enter) {}
         }
+        public static void Name()
+        {
+            Console.Write("Name: ");
+            Items.Name = Console.ReadLine();
+            Console.SetCursorPosition(0, Console.CursorTop - 1);
+            
+            switch (Items.Name)
+            {
+                case "debug":
+                    Console.WriteLine("Nice");
+                    break;
+                default:
+                    break;
+            }
+        }
         public static class Tutorial
         {
             public static void EnterTut()
@@ -15,6 +30,7 @@ namespace Untilted_Game
                 Console.ForegroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("drücke ENTER um fortzufahren....");
                 Console.ForegroundColor = ConsoleColor.White;
+                Console.SetCursorPosition(0, Console.CursorTop - 1);
             }
             public static void OpenTut()
             {

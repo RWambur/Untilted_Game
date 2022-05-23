@@ -43,8 +43,6 @@ namespace Untilted_Game
                 Console.ForegroundColor = ConsoleColor.White;
                 Com();
             }
-            
-            
         }
     }
 }
