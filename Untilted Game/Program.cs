@@ -63,6 +63,7 @@ namespace Untilted_Game
             Shortcuts.Tutorial.UseItemTut();
             
             Commands.Com();
+            Commands.Com();
 
 
             Shortcuts.Enter();

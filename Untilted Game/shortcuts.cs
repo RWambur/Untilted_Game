@@ -29,5 +29,14 @@ namespace Untilted_Game
                 Console.ForegroundColor = ConsoleColor.White;;
             }
         }
+        public static class NoMoreItems
+        {
+            public static void NoMoreCorny()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.WriteLine("Du besitzt keinen " + Items.corny + " mehr.");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace Untilted_Game
             string comAns = Console.ReadLine().ToUpper();
             Inventory inventory = new Inventory();
             Items items = new Items();
+            Shortcuts shortcuts = new Shortcuts();
 
             if (comAns == "HELP")
             {
@@ -23,10 +24,8 @@ namespace Untilted_Game
             {
                 if (Inventory.content02 == "LEER" )
                 {
-                Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("Du besitzt keinen " + Items.corny + " mehr.");
-                Console.ForegroundColor = ConsoleColor.White;
-                Com();
+                    Shortcuts.NoMoreItems.NoMoreCorny();
+                    Com();
                 } else 
                 {
                     Inventory.content02 = Items.leer;
@@ -40,7 +39,7 @@ namespace Untilted_Game
             } else
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("ERROR\n");
+                Console.WriteLine("\nERROR\n");
                 Console.ForegroundColor = ConsoleColor.White;
                 Com();
             }
