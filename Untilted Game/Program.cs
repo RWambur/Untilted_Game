@@ -56,19 +56,25 @@ namespace Untilted_Game
             Shortcuts.Enter();
 
             Shortcuts.Tutorial.OpenTut();
-            
             Inventory.content02 = Items.corny;
-
             Commands.Com();
-
             Shortcuts.Tutorial.UseItemTut();
-            
-            Commands.Com();
-            Commands.Com();
+            Commands.ItemsCom();
 
-
+            Console.WriteLine("\n...");
             Shortcuts.Enter();
 
+            Console.WriteLine("Dir fällt auf das der Trampelpfad sich vor dem Haus spaltet,");
+            Shortcuts.Enter();
+
+            Console.WriteLine("Ein Weg geht nach Rechts, einer Nach Links und selbstverständlich geht einer auch richtung Holzhütte.");
+            Shortcuts.Enter();
+
+            Console.WriteLine("Wo willst du lang gehen?");
+            Shortcuts.Tutorial.DirectionTut();
+            Commands.DirectionCom();
+
+            Shortcuts.Enter();
         }
     }
 }
