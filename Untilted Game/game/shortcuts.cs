@@ -72,7 +72,6 @@ namespace Untilted_Game
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("\nERROR\n");
                 Console.ForegroundColor = ConsoleColor.White;
-                Commands.Com();
             }
         }
     }

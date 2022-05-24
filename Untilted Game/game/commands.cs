@@ -23,6 +23,7 @@ namespace Untilted_Game
             } else
             {
                 Shortcuts.Com.Error();
+                Com();
             }
         }
         public static void ItemsCom()
@@ -44,6 +45,7 @@ namespace Untilted_Game
             } else
             {
                 Shortcuts.Com.Error();
+                ItemsCom();
             }
 
         }
@@ -67,6 +69,7 @@ namespace Untilted_Game
             } else 
             {
                 Shortcuts.Com.Error();
+                DirectionCom();
             }
         }
     }
