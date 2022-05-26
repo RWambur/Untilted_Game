@@ -11,3 +11,16 @@ D:\CSharp Code\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.csproj.CoreCo
 D:\CSharp Code\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.dll
 D:\CSharp Code\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.pdb
 D:\CSharp Code\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.genruntimeconfig.cache
+D:\Game Builds\Untilted Game\bin\Debug\netcoreapp3.1\Untilted Game.exe
+D:\Game Builds\Untilted Game\bin\Debug\netcoreapp3.1\Untilted Game.deps.json
+D:\Game Builds\Untilted Game\bin\Debug\netcoreapp3.1\Untilted Game.runtimeconfig.json
+D:\Game Builds\Untilted Game\bin\Debug\netcoreapp3.1\Untilted Game.runtimeconfig.dev.json
+D:\Game Builds\Untilted Game\bin\Debug\netcoreapp3.1\Untilted Game.dll
+D:\Game Builds\Untilted Game\bin\Debug\netcoreapp3.1\Untilted Game.pdb
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.csprojAssemblyReference.cache
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.AssemblyInfoInputs.cache
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.AssemblyInfo.cs
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.csproj.CoreCompileInputs.cache
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.dll
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.pdb
+D:\Game Builds\Untilted Game\obj\Debug\netcoreapp3.1\Untilted Game.genruntimeconfig.cache

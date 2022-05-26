@@ -19,7 +19,7 @@ namespace Untilted_Game
             switch (Items.Name)
             {
                 case "debug":
-                    Console.WriteLine("Nice");
+                    Locations.House();
                     break;
                 case "":
                     Name();
@@ -53,6 +53,24 @@ namespace Untilted_Game
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
                 Console.WriteLine("Gebe RECHTS/LINKS/GERADE ein");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void HouseDirTut()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("Gebe BETT/SCHRANK/SOFA/EINGANG/TÜR1/TÜR2 um dich zu bewegen.");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void BackTut()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("Gebe BACK ein um dich vom Bett abzuwenden");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void LookTut()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("Gebe LOOK ein um dir das " + Objects.BedString + " anzuschauen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
         }

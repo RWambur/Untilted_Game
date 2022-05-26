@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CSharp Code\\Untilted Game\\Untilted Game.csproj",
+      "projectUniqueName": "D:\\Game Builds\\Untilted Game\\Untilted Game.csproj",
       "projectName": "Untilted Game",
-      "projectPath": "D:\\CSharp Code\\Untilted Game\\Untilted Game.csproj",
+      "projectPath": "D:\\Game Builds\\Untilted Game\\Untilted Game.csproj",
       "packagesPath": "C:\\Users\\frage\\.nuget\\packages\\",
-      "outputPath": "D:\\CSharp Code\\Untilted Game\\obj\\",
+      "outputPath": "D:\\Game Builds\\Untilted Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\frage\\AppData\\Roaming\\NuGet\\NuGet.Config"
