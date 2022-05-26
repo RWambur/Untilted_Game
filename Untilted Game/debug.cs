@@ -6,20 +6,29 @@ namespace Untilted_Game
     {
         public static void debug()
         {
-            string comAns = Console.ReadLine().ToUpper();
-            int count = 0;
+           
+           Inventory.content02 = Items.corny;
 
-            if (comAns == "LOOK" && count == 0) 
+           string comAns = Console.ReadLine().ToUpper();
+
+            if (comAns == "USE " && Inventory.content02 != "LEER")
             {
-                Console.WriteLine("0");
-                count = 1;
-                
-            } else if (comAns == "LOOK" && count == 1)
+                if (Inventory.content02 == "LEER" )
+                {
+                    Shortcuts.NoMoreItems.NoMoreCorny();
+                    Commands.Com();
+
+                } else 
+                {
+                    Console.WriteLine("Du isst den Corny Müsliriegel und deine Gefühlswelt wird spürbar ein wenig milder.");
+                    Inventory.content02 = Items.leer;
+                }
+            } else
             {
-                Console.WriteLine("1");
-                
+                Shortcuts.Com.Error();
+                Console.WriteLine(Inventory.content02);
+                Commands.ItemsCom();
             }
-            debug();
         }
     }
 }

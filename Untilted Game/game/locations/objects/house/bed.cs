@@ -8,6 +8,7 @@ namespace Untilted_Game
 
         public static void Bed()
         {
+            Console.WriteLine("Du bewegst dich zum Bett.");
             Console.WriteLine("Was nun?");
             Shortcuts.Tutorial.LookTut();
             HouseObjCom.BedCom();

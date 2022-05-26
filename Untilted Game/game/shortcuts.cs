@@ -14,12 +14,11 @@ namespace Untilted_Game
         {
             Console.Write("Name: ");
             Items.Name = Console.ReadLine();
-            Console.SetCursorPosition(0, Console.CursorTop - 1);
             
             switch (Items.Name)
             {
                 case "debug":
-                    Locations.House();
+                    Debug.debug();
                     break;
                 case "":
                     Name();
