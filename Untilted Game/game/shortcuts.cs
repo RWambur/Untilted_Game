@@ -21,9 +21,11 @@ namespace Untilted_Game
                     Debug.debug();
                     break;
                 case "":
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     Name();
                     break;
                 default:
+                    Console.SetCursorPosition(0, Console.CursorTop - 1);
                     break;
             }
         }
@@ -75,7 +77,7 @@ namespace Untilted_Game
         }
         public static class NoMoreItems
         {
-            public static void NoMoreCorny()
+            public static void NoMoreItem()
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("Du besitzt keinen " + Items.corny + " mehr.");

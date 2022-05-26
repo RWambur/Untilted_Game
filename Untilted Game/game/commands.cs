@@ -30,11 +30,11 @@ namespace Untilted_Game
         {
             string comAns = Console.ReadLine().ToUpper();
 
-            if (comAns == "USE CORNY MÜSLIRIEGEL")
+            if (comAns == "USE " + Inventory.content02)
             {
                 if (Inventory.content02 == "LEER" )
                 {
-                    Shortcuts.NoMoreItems.NoMoreCorny();
+                    Shortcuts.NoMoreItems.NoMoreItem();
                     Com();
 
                 } else 
