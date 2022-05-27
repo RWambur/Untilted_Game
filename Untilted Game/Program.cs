@@ -56,6 +56,7 @@ namespace Untilted_Game
             Shortcuts.Enter();
 
             Shortcuts.Tutorial.OpenTut();
+            Shortcuts.Tutorial.HelpTut();
             Inventory.content02 = Items.corny;
             Commands.Com();
             Shortcuts.Tutorial.UseItemTut();

@@ -18,7 +18,7 @@ namespace Untilted_Game
         public static void Inv()
         {
 
-            Console.WriteLine("Inhalt:");
+            Console.WriteLine("\nInhalt:");
             Console.WriteLine("1. " + content01);
             Console.WriteLine("2. " + content02);
             Console.WriteLine("3. " + content03);
@@ -28,7 +28,7 @@ namespace Untilted_Game
             Console.WriteLine("7. " + content07);
             Console.WriteLine("8. " + content08);
             Console.WriteLine("9. " + content09);
-            Console.WriteLine("10. " + content10);
+            Console.WriteLine("10. " + content10 + "\n");
         }
     }
 }

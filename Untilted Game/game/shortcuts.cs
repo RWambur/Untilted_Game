@@ -34,20 +34,26 @@ namespace Untilted_Game
             public static void EnterTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("drücke ENTER um fortzufahren....");
+                Console.WriteLine("drücke ENTER um fortzufahren");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.SetCursorPosition(0, Console.CursorTop - 1);
+            }
+            public static void HelpTut()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("geben jederzeit HELP ein um die momentan möglichen Befehle aufzurufen");
+                Console.ForegroundColor = ConsoleColor.White;
             }
             public static void OpenTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("\ngeben BACKPACK ein um deinen Rucksack zu öffnen...");
+                Console.WriteLine("geben BACKPACK ein um deinen Rucksack zu öffnen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void UseItemTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("geben USE ITEM ein um ein Item zu benutzen...\n");
+                Console.WriteLine("geben USE ITEM ein um ein Item zu benutzen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void DirectionTut()
@@ -59,7 +65,7 @@ namespace Untilted_Game
             public static void HouseDirTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("Gebe BETT/SCHRANK/SOFA/EINGANG/TÜR1/TÜR2 um dich zu bewegen.");
+                Console.WriteLine("Gebe BETT/SCHRANK/SOFA/EINGANG/TÜR1/TÜR2/EXIT um dich zu bewegen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void BackTut()
@@ -80,7 +86,7 @@ namespace Untilted_Game
             public static void NoMoreItem()
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("Du besitzt keinen " + Items.corny + " mehr.");
+                Console.WriteLine("Du besitzt keinen dieses Item nicht mehr.");
                 Console.ForegroundColor = ConsoleColor.White;
             }
         }
@@ -90,6 +96,39 @@ namespace Untilted_Game
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("\nERROR\n");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+        }
+        public static class AvaliableCom
+        {
+            public static void UseOpenTut()
+            {
+                    Console.ForegroundColor = ConsoleColor.DarkGray;
+                    Console.WriteLine("HELP - Zeigt momentan mögliche Befehle\nBACKPACK - Öffnet den Rucksack\nCLEAR - Löscht allen Inhalt der Console");
+                    Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void UseItemTut()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("HELP - Zeigt momentan mögliche Befehle\nUSE ITEM - Nutzt ein Item, bspw 'use corny müsliriegel'\nCLEAR - Löscht allen Inhalt der Console");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void AvDirectionCom()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("HELP - Zeigt momentan mögliche Befehle\nCLEAR - Löscht allen Inhalt der Console\nRECHTS - gehst nach Rechts\nLINKS - gehst nach Link\nGERADE - gehst in die Holzhütte\nBACKPACK - Öffnet deinen Rucksack");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void AvHouseDirCom()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("HELP - Zeigt momentan mögliche Befehle\nCLEAR - Löscht allen Inhalt der Console\nBETT - gehst zum Bett\nSCHRANK - gehst zum Schrank\nSOFA - gehst zum Sofa\nTÜR1 - gehst zur ersten Tür an der hinteren Wand\nTÜR2 - gehst zur zwiten Tür an der hinteren Wand\nBACKPACK - Öffnet deinen Rucksack\nEXIT - du verlässt das Haus durch die Eingangstür");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            public static void AvBedCom()
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("HELP - Zeigt momentan mögliche Befehle\nCLEAR - Löscht allen Inhalt der Console\nLOOK - schaust dir das Object genauer an\nBACKPACK - Öffnet deinen Rucksack\nBACK - gehst zurück");
                 Console.ForegroundColor = ConsoleColor.White;
             }
         }
