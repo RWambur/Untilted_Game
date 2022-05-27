@@ -7,7 +7,6 @@ namespace Untilted_Game
         public static void debug()
         {
            
-           LocationHouse.House();
         }
     }
 }

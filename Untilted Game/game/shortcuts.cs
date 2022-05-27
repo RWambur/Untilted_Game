@@ -41,43 +41,43 @@ namespace Untilted_Game
             public static void HelpTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("geben jederzeit HELP ein um die momentan möglichen Befehle aufzurufen");
+                Console.WriteLine("gebe jederzeit HELP ein um die momentan möglichen Befehle aufzurufen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void OpenTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("geben BACKPACK ein um deinen Rucksack zu öffnen");
+                Console.WriteLine("gebe BACKPACK ein um deinen Rucksack zu öffnen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void UseItemTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("geben USE ITEM ein um ein Item zu benutzen");
+                Console.WriteLine("gebe USE ITEM ein um ein Item zu benutzen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void DirectionTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("Gebe RECHTS/LINKS/GERADE ein");
+                Console.WriteLine("gebe RECHTS/LINKS/GERADE ein");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void HouseDirTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("Gebe BETT/SCHRANK/SOFA/EINGANG/TÜR1/TÜR2/EXIT um dich zu bewegen");
+                Console.WriteLine("gebe BETT/SCHRANK/SOFA/EINGANG/TÜR1/TÜR2/EXIT um dich zu bewegen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void BackTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("Gebe BACK ein um dich vom Bett abzuwenden");
+                Console.WriteLine("gebe BACK ein um dich vom Bett abzuwenden");
                 Console.ForegroundColor = ConsoleColor.White;
             }
             public static void LookTut()
             {
                 Console.ForegroundColor = ConsoleColor.DarkGray;
-                Console.WriteLine("Gebe LOOK ein um dir das " + Objects.BedString + " anzuschauen");
+                Console.WriteLine("gebe LOOK ein um dir das " + Objects.BedString + " anzuschauen");
                 Console.ForegroundColor = ConsoleColor.White;
             }
         }
